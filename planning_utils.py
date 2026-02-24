@@ -174,7 +174,6 @@ def collinearity_check(p1, p2, p3, epsilon=1e-6):
 def prune_path(path):
     if path is not None:
         pruned_path = [p for p in path]
-        # TODO: prune the path!
         i = 0
         while i < len(pruned_path) - 2:
             p1 = point(pruned_path[i])
